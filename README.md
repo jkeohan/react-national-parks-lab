@@ -1,82 +1,68 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# React Router & APIs
+## Available Scripts
 
-For today's lab, you'll be building out a small website for the National Parts.
-The lab will be broken down into two parts:
+In the project directory, you can run:
 
-1. Build a React app that uses `react-router`
-1. Communicate with 3rd-party APIs
+### `npm start`
 
-## Prerequisites
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- React
-- Components and life cycle methods
-- Props and state
-- React Router
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Instructions
+### `npm test`
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Install dependencies.
-1. Fulfill the listed requirements.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Please turn in your submission by the deadline on your cohort calendar.
+### `npm run build`
 
-## Requirements
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You will be building out a website listing all of the National Parks.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-The layout of the page with be the following:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![](https://i.imgur.com/LfMFyCF.png)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Part I: React Router
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Read more on [part-i.md details](part-i.md)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Start by building out the app using React, React Router, and the static data
-provided in [`parks.json`](./parks.json). Get the site working
-with this static data, then integrate with the [National Parks
-API](https://www.nps.gov/subjects/developer/index.htm) and make it look like the
-mock. For now, just pass the data around and create an MVP version with minimal
-styling so you know it's working.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Your root level component (`App`) should hold all the data for the application
-and pass it down to the different pages, as necessary.
+## Learn More
 
-### Part II: Adding APIs
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Read more on [part-ii.md details](part-ii.md)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Once you have it working with the static data, get it working with the
-[National Parks API](https://www.nps.gov/subjects/developer/index.htm).
+### Code Splitting
 
-You should only need to add an Fetch request that sets the API response data to
-state.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Part III [Make it look like the mock](https://drive.google.com/file/d/1DJS8ysB1N9Kp89_V_loagQiFNU_4jZoN/view?usp=sharing)
+### Analyzing the Bundle Size
 
-Now that all your data and pages are in place, make your site look like the
-provided mock.
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## Resources
+### Making a Progressive Web App
 
-- [React Router Lesson Plan](https://git.generalassemb.ly/SEIR-224/react-router)
-- [`<Route render={ ... } />`](https://reacttraining.com/react-router/web/api/Route/render-func)
-  vs
-  [`<Route component={ ... } />`](https://reacttraining.com/react-router/web/api/Route/component)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## Plagiarism
+### Advanced Configuration
 
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## [License](LICENSE)
+### Deployment
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

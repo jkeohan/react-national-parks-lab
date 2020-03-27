@@ -6,6 +6,7 @@ function ParkInfo(props){
    const [parks, setPark] = useState({})
    const [image, setImage] = useState("")
    const [address, setAddress] =useState("")
+   
     useEffect(()=>{
         fetchPark()
     },[])
